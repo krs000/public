@@ -1,0 +1,2 @@
+
+<canvas  class='firstcanvas' canvas-id="tanchishe" bindtouchstart="kaishi" bindtouchmove="yidong" bindtouchend="jieshu"></canvas>

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/module/module",
+    "pages/register/register",
+    "pages/snake/snake"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "贪吃蛇",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#ccc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/fontWX-hond.jpg",
+        "selectedIconPath": "images/fontWX.jpg"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "images/fontWX-hond.jpg",
+        "selectedIconPath": "images/fontWX.jpg"
+      },
+      {
+        "pagePath": "pages/snake/snake",
+        "text": "设置",
+        "iconPath": "images/fontWX-hond.jpg",
+        "selectedIconPath": "images/fontWX.jpg"
+      }
+    ]
+  },
+  "debug": true
+}

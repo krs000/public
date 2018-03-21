@@ -1,0 +1,29 @@
+.flex{
+display: -webkit-flex;
+flex-direction: column;
+height: 1200rpx
+
+}
+.flex view{
+
+
+
+text-align: center;
+font-size: 40rpx;
+line-height: 200rpx;
+color: white;
+
+
+}
+.a{
+  background: red;
+  flex: 1;
+}
+.b{
+  background: green;
+  flex: 1;
+}
+.c{
+  background: blue;
+  flex: 2;
+}

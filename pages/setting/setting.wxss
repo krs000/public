@@ -1,0 +1,10 @@
+/* pages/setting/setting.wxss */
+
+
+@import "common.wxss"
+
+.set{
+color: red;
+font-size: 20px
+}
+

@@ -1,0 +1,20 @@
+<!-- <view class="flex">
+<view class='a'>a</view>
+<view class='b'>b</view>
+<view class='c'>c</view>
+</view> -->
+
+
+<swiper indicator-dots="true" autoplay="{{autoplay}}" current="0" interval="{{inter}}" duration="100" bindchange='swiper'>
+<swiper-item wx:for="{{imgUrls}}" >
+<image src='{{item}}' width="400" height="350"/>
+</swiper-item>
+</swiper>
+<slider  bindchange='sliderChange' backgroundColor="{{backgroundColor}}" activeColor="{{activeColor}}" show-value  min='2000' max='5000' />
+<button bindtap='buttom'>点击暂停和开始</button>
+<block wx:for="{{icon}}">
+<icon type='{{item}}'size='40'/>
+</block>
+<text>这是一文字</text>
+<progress percent="{{progress}}"show-info="true"  stroke-width='20' />
+<button bindtap='action'>点击开始</button>
